@@ -1,0 +1,27 @@
+BOM (Browser Object Model)    浏览器对象模型
+Window为顶层对象，其他都是它的子对象
+Screen对象：
+•	Screen.availWidth：可用宽度
+•	Screen.availHeight：可用高度
+Location对象：
+•	Location.hostname：返回主机域名
+•	Location.pathname：返回当前页面的路径和文件名
+•	Location.port：返回web主机端口
+•	Location.protocal：返回使用的web协议
+•	Locaiton.href：返回当前页面URL
+•	Location.pathname：返回当前URL路径名
+•	Location.assign（）：加载新的URL
+History对象：
+•	History.back：
+•	History.forward：
+Navigator对象：
+•	包含访问者浏览器的相关信息
+消息框：
+•	警告框：alert（）
+•	确认框：confirm（）
+•	提示框：prompt（）
+计时：
+•	setTimeout（‘javascript语句’, 毫秒）
+•	clearTimeout（t），t = setTimeout（）
+cookie:
+
